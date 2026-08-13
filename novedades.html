@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samsung Audio - Categoría</title>
+    <title>Samsung Audio - Novedades</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -14,39 +14,37 @@
             <input type="text" placeholder="Buscar productos Samsung...">
         </div>
         <nav class="menu-usuario">
-            <a href="#">👤 Mi cuenta</a>
-            <a href="favoritos.html">♡ Favoritos</a>
+            <a href="cuenta.html">👤 Mi cuenta</a>
+           <a href="favoritos.html">♡ Favoritos</a>
             <a href="carrito.html">🛒 Carrito <span class="badge-carrito">2</span></a>
         </nav>
     </header>
 
     <nav class="nav-categorias">
         <a href="index.html">Inicio</a>
-        <a href="categoria.html" class="activo">Audio y Sonido</a>
-       <a href="accesorios.html">Accesorios</a>
-        <a href="#">Ofertas</a>
-        <a href="#">Novedades</a>
-        <a href="#">Soporte</a>
+        <a href="categoria.html">Audio y Sonido</a>
+        <a href="accesorios.html">Accesorios</a>
+        <a href="ofertas.html">Ofertas</a>
+        <a href="novedades.html" class="activo">Novedades</a>
+        <a href="soporte.html">Soporte</a>
     </nav>
 
     <div class="breadcrumb">
-        <a href="index.html">Inicio</a> &gt; Audio y Sonido
+        <a href="index.html">Inicio</a> &gt; Novedades
     </div>
 
-    <div class="categoria-cabecera">
-        <h1>Audio y Sonido</h1>
-        <p>Descubre la mejor calidad de sonido con los equipos Samsung diseñados para ti.</p>
+    <div class="cabecera-novedades">
+        <h1>Novedades Samsung</h1>
+        <p>Descubre los últimos lanzamientos en audio y accesorios Samsung.</p>
     </div>
 
     <div class="categoria-layout">
 
         <aside class="filtros">
             <div class="filtro-grupo">
-                <h4>Categorías</h4>
-                <label><input type="checkbox"> Barras de Sonido</label>
-                <label><input type="checkbox"> Parlantes</label>
-                <label><input type="checkbox"> Torre de Sonido</label>
-                <label><input type="checkbox"> Minicomponentes</label>
+                <h4>Categoría</h4>
+                <label><input type="checkbox"> Audio y Sonido</label>
+                <label><input type="checkbox"> Accesorios</label>
             </div>
 
             <div class="filtro-grupo">
@@ -68,75 +66,29 @@
                 <label><input type="checkbox"> ★★★ o más</label>
             </div>
 
-            <button class="btn-aplicar">Aplicar</button>
+            <button class="btn-aplicar btn-aplicar-novedades">Aplicar</button>
         </aside>
 
         <div class="categoria-contenido">
-
-            <img src="imagenes/banner-categoria.jpeg" alt="Banner Audio y Sonido Samsung" class="banner-categoria-img">
 
             <div class="categoria-toolbar">
                 <div>
                     Ordenar por:
                     <select>
-                        <option>Relevancia</option>
+                        <option>Más reciente</option>
                         <option>Precio: menor a mayor</option>
                         <option>Precio: mayor a menor</option>
                         <option>Mejor valorados</option>
                     </select>
                 </div>
-                <span>8 productos</span>
+                <span>4 productos</span>
             </div>
 
             <div class="productos-grid">
 
                 <a href="producto.html">
                     <div class="producto-card">
-                        <span class="favorito">♡</span>
-                        <img src="imagenes/hw-q600c.jpeg" alt="Barra de Sonido HW-Q600C">
-                        <p class="nombre">Barra de Sonido HW-Q600C</p>
-                        <p class="precio">$299.99</p>
-                        <div class="fila-rating">
-                            <p class="rating">★★★★☆ <span class="cantidad">(210)</span></p>
-                            <button class="btn-carrito-mini">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.5 5h13.5M9 21a1 1 0 100-2 1 1 0 000 2zM19 21a1 1 0 100-2 1 1 0 000 2z"/></svg>
-                            </button>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="producto.html">
-                    <div class="producto-card">
-                        <span class="favorito">♡</span>
-                        <img src="imagenes/hw-q630.jpeg" alt="Barra de Sonido HW-Q630">
-                        <p class="nombre">Barra de Sonido HW-Q630</p>
-                        <p class="precio">$199.99</p>
-                        <div class="fila-rating">
-                            <p class="rating">★★★★☆ <span class="cantidad">(184)</span></p>
-                            <button class="btn-carrito-mini">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.5 5h13.5M9 21a1 1 0 100-2 1 1 0 000 2zM19 21a1 1 0 100-2 1 1 0 000 2z"/></svg>
-                            </button>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="producto.html">
-                    <div class="producto-card">
-                        <span class="favorito">♡</span>
-                        <img src="imagenes/torre-mxt70-1.jpeg" alt="Torre de Sonido MX-T70">
-                        <p class="nombre">Torre de Sonido MX-T70</p>
-                        <p class="precio">$499.99</p>
-                        <div class="fila-rating">
-                            <p class="rating">★★★★☆ <span class="cantidad">(246)</span></p>
-                            <button class="btn-carrito-mini">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.5 5h13.5M9 21a1 1 0 100-2 1 1 0 000 2zM19 21a1 1 0 100-2 1 1 0 000 2z"/></svg>
-                            </button>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="producto.html">
-                    <div class="producto-card">
+                        <span class="badge-nuevo">Nuevo</span>
                         <span class="favorito">♡</span>
                         <img src="imagenes/torre-mxt70-2.jpeg" alt="Torre de Sonido MX-T70">
                         <p class="nombre">Torre de Sonido MX-T70</p>
@@ -152,6 +104,7 @@
 
                 <a href="producto.html">
                     <div class="producto-card">
+                        <span class="badge-nuevo">Nuevo</span>
                         <span class="favorito">♡</span>
                         <img src="imagenes/galaxy-sound-tower.jpeg" alt="Parlante Bluetooth Galaxy Sound Tower">
                         <p class="nombre">Parlante Bluetooth Galaxy Sound Tower</p>
@@ -167,12 +120,13 @@
 
                 <a href="producto.html">
                     <div class="producto-card">
+                        <span class="badge-nuevo">Nuevo</span>
                         <span class="favorito">♡</span>
-                        <img src="imagenes/mini-mxt70.jpeg" alt="Mini Componente MX-T70">
-                        <p class="nombre">Mini Componente MX-T70</p>
-                        <p class="precio">$129.99</p>
+                        <img src="imagenes/cargador.jpeg" alt="Cargador Inalámbrico Duo EP-P5400">
+                        <p class="nombre">Cargador Inalámbrico Duo EP-P5400</p>
+                        <p class="precio">$59.99</p>
                         <div class="fila-rating">
-                            <p class="rating">★★★★☆ <span class="cantidad">(145)</span></p>
+                            <p class="rating">★★★★☆ <span class="cantidad">(54)</span></p>
                             <button class="btn-carrito-mini">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.5 5h13.5M9 21a1 1 0 100-2 1 1 0 000 2zM19 21a1 1 0 100-2 1 1 0 000 2z"/></svg>
                             </button>
@@ -182,6 +136,7 @@
 
                 <a href="producto.html">
                     <div class="producto-card">
+                        <span class="badge-nuevo">Nuevo</span>
                         <span class="favorito">♡</span>
                         <img src="imagenes/equipo-mxq300c.jpeg" alt="Equipo de Música MX-Q300C">
                         <p class="nombre">Equipo de Música MX-Q300C</p>
@@ -195,27 +150,11 @@
                     </div>
                 </a>
 
-                <a href="producto.html">
-                    <div class="producto-card">
-                        <span class="favorito">♡</span>
-                        <img src="imagenes/hw-q600c-2.jpeg" alt="Barra de Sonido HW-Q600C">
-                        <p class="nombre">Barra de Sonido HW-Q600C</p>
-                        <p class="precio">$199.99</p>
-                        <div class="fila-rating">
-                            <p class="rating">★★★★☆ <span class="cantidad">(62)</span></p>
-                            <button class="btn-carrito-mini">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.5 5h13.5M9 21a1 1 0 100-2 1 1 0 000 2zM19 21a1 1 0 100-2 1 1 0 000 2z"/></svg>
-                            </button>
-                        </div>
-                    </div>
-                </a>
-
             </div>
 
             <div class="paginacion">
                 <a href="#" class="activo">1</a>
                 <a href="#">2</a>
-                <a href="#">3</a>
                 <a href="#">&gt;</a>
             </div>
         </div>
@@ -225,10 +164,10 @@
         <div class="footer-columnas">
             <div class="footer-columna">
                 <h4>SAMSUNG</h4>
-                <a href="#">Audio y Sonido</a>
-                <a href="#">Accesorios</a>
-                <a href="#">Ofertas</a>
-                <a href="#">Novedades</a>
+                <a href="categoria.html">Audio y Sonido</a>
+                <a href="accesorios.html">Accesorios</a>
+                <a href="ofertas.html">Ofertas</a>
+                <a href="novedades.html">Novedades</a>
             </div>
             <div class="footer-columna">
                 <h4>Soporte</h4>

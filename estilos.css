@@ -1013,3 +1013,376 @@ footer {
 .confirmacion-tarjeta .btn-finalizar {
     display: inline-block;
 }
+
+/* ACCESORIOS */
+.cabecera-accesorios {
+    background-color: #1428A0;
+    color: white;
+    padding: 20px 60px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.cabecera-accesorios h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.cabecera-accesorios p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.btn-aplicar-accesorios {
+    background-color: #1428A0;
+}
+
+
+.productos-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.producto-card-lista {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 16px;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.2s ease;
+}
+
+.producto-card-lista:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.producto-card-lista img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.producto-card-lista .info-lista {
+    flex-grow: 1;
+}
+
+.producto-card-lista .nombre {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.producto-card-lista .precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0f766e;
+    margin-top: 4px;
+}
+
+/* OFERTAS */
+.cabecera-ofertas {
+    background-color: #1428A0;
+    color: white;
+    padding: 20px 60px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.cabecera-ofertas h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.btn-aplicar-ofertas {
+    background-color: #1428A0;
+}
+
+.badge-oferta {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #1428A0;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 6px;
+    z-index: 2;
+}
+
+.precio-tachado {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.precio-oferta {
+    color: #1428A0;
+    font-weight: bold;
+}
+
+/* NOVEDADES */
+.cabecera-novedades {
+    background-color: #1428A0;
+    color: white;
+    padding: 20px 60px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.cabecera-novedades h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.btn-aplicar-novedades {
+    background-color: #1428A0;
+}
+
+.badge-nuevo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #1428A0;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 6px;
+    z-index: 2;
+}
+
+/* SOPORTE */
+.cabecera-soporte {
+    background-color: #1428A0;
+    color: white;
+    padding: 20px 60px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.cabecera-soporte h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.soporte-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 60px;
+    margin-bottom: 50px;
+}
+
+.soporte-tarjeta {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 24px;
+    text-align: center;
+}
+
+.soporte-icono {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.soporte-tarjeta h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #1428A0;
+}
+
+.soporte-tarjeta p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.soporte-preguntas {
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+    padding: 0 60px;
+}
+
+.soporte-preguntas h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.pregunta {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 16px 0;
+}
+
+.pregunta h4 {
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: #1a1a1a;
+}
+
+.pregunta p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* MI CUENTA */
+.cabecera-cuenta {
+    background-color: #1428A0;
+    color: white;
+    padding: 20px 60px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.cabecera-cuenta h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.cuenta-layout {
+    display: flex;
+    gap: 30px;
+    padding: 0 60px;
+    margin-bottom: 60px;
+}
+
+.cuenta-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 220px;
+    flex-shrink: 0;
+}
+
+.cuenta-menu a {
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 8px;
+}
+
+.cuenta-menu a.activo {
+    background-color: #1428A0;
+    color: white;
+    font-weight: bold;
+}
+
+.cuenta-menu a:hover:not(.activo) {
+    background-color: #f0f0f0;
+}
+
+.cuenta-salir {
+    margin-top: 16px;
+    color: #D32F2F !important;
+}
+
+.cuenta-contenido {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cuenta-tarjeta {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.cuenta-tarjeta h3 {
+    margin-bottom: 16px;
+    color: #1428A0;
+}
+
+.cuenta-campo {
+    margin-bottom: 14px;
+}
+
+.cuenta-campo label {
+    display: block;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.cuenta-campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.btn-editar-cuenta {
+    background-color: #1428A0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.pedido-resumen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.pedido-numero {
+    font-weight: bold;
+}
+
+.pedido-fecha {
+    font-size: 13px;
+    color: #777;
+}
+
+.pedido-estado {
+    background-color: #FFF3CD;
+    color: #856404;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+.pedido-entregado {
+    background-color: #D4EDDA;
+    color: #155724;
+}
+
+/* FAVORITOS */
+.cabecera-favoritos {
+    background-color: #1428A0;
+    color: white;
+    padding: 20px 60px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.cabecera-favoritos h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.favoritos-contenido {
+    padding: 0 60px;
+    margin-bottom: 60px;
+}
+
+.favorito-activo {
+    color: #D32F2F;
+}

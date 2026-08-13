@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Audio - Mi Cuenta</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">SAMSUNG</div>
+        <div class="buscador">
+            <input type="text" placeholder="Buscar productos Samsung...">
+        </div>
+        <nav class="menu-usuario">
+            <a href="cuenta.html" class="activo">👤 Mi cuenta</a>
+            <a href="favoritos.html">♡ Favoritos</a>
+            <a href="carrito.html">🛒 Carrito <span class="badge-carrito">2</span></a>
+        </nav>
+    </header>
+
+    <nav class="nav-categorias">
+        <a href="index.html">Inicio</a>
+        <a href="categoria.html">Audio y Sonido</a>
+        <a href="accesorios.html">Accesorios</a>
+        <a href="ofertas.html">Ofertas</a>
+        <a href="novedades.html">Novedades</a>
+        <a href="soporte.html">Soporte</a>
+    </nav>
+
+    <div class="breadcrumb">
+        <a href="index.html">Inicio</a> &gt; Mi Cuenta
+    </div>
+
+    <div class="cabecera-cuenta">
+        <h1>Mi Cuenta</h1>
+        <p>Gestiona tu información personal, pedidos y preferencias.</p>
+    </div>
+
+    <div class="cuenta-layout">
+
+        <aside class="cuenta-menu">
+            <a href="#" class="activo">Datos personales</a>
+            <a href="#">Mis pedidos</a>
+            <a href="#">Favoritos</a>
+            <a href="#">Direcciones</a>
+            <a href="#">Métodos de pago</a>
+            <a href="#" class="cuenta-salir">Cerrar sesión</a>
+        </aside>
+
+        <div class="cuenta-contenido">
+
+            <div class="cuenta-tarjeta">
+                <h3>Datos personales</h3>
+                <div class="cuenta-campo">
+                    <label>Nombre completo</label>
+                    <input type="text" value="Rosa Martínez" disabled>
+                </div>
+                <div class="cuenta-campo">
+                    <label>Correo electrónico</label>
+                    <input type="email" value="rosa.martinez@correo.com" disabled>
+                </div>
+                <div class="cuenta-campo">
+                    <label>Teléfono</label>
+                    <input type="tel" value="+52 55 1234 5678" disabled>
+                </div>
+                <button class="btn-editar-cuenta">Editar información</button>
+            </div>
+
+            <div class="cuenta-tarjeta">
+                <h3>Pedidos recientes</h3>
+                <div class="pedido-resumen">
+                    <div>
+                        <p class="pedido-numero">Pedido #SA-10234</p>
+                        <p class="pedido-fecha">10 de agosto, 2026</p>
+                    </div>
+                    <span class="pedido-estado">En camino</span>
+                </div>
+                <div class="pedido-resumen">
+                    <div>
+                        <p class="pedido-numero">Pedido #SA-10198</p>
+                        <p class="pedido-fecha">28 de julio, 2026</p>
+                    </div>
+                    <span class="pedido-estado pedido-entregado">Entregado</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-columnas">
+            <div class="footer-columna">
+                <h4>SAMSUNG</h4>
+                <a href="categoria.html">Audio y Sonido</a>
+                <a href="accesorios.html">Accesorios</a>
+                <a href="ofertas.html">Ofertas</a>
+                <a href="novedades.html">Novedades</a>
+            </div>
+            <div class="footer-columna">
+                <h4>Soporte</h4>
+                <a href="soporte.html">Centro de ayuda</a>
+                <a href="soporte.html">Envíos y entregas</a>
+                <a href="soporte.html">Devoluciones</a>
+                <a href="soporte.html">Garantía</a>
+            </div>
+            <div class="footer-columna">
+                <h4>Mi cuenta</h4>
+                <a href="cuenta.html">Mis pedidos</a>
+                <a href="#">Favoritos</a>
+                <a href="#">Trabaja con nosotros</a>
+                <a href="#">Samsung Rewards</a>
+            </div>
+            <div class="footer-columna">
+                <h4>Legal</h4>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">Aviso legal</a>
+                <a href="#">Prensa</a>
+            </div>
+        </div>
+        <div class="footer-final">
+            <p>© 2026 Samsung Electronics. Todos los derechos reservados.</p>
+            <p>Métodos de pago: VISA · Mastercard · PayPal</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Audio - Accesorios</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">SAMSUNG</div>
+        <div class="buscador">
+            <input type="text" placeholder="Buscar productos Samsung...">
+        </div>
+        <nav class="menu-usuario">
+            <a href="cuenta.html">👤 Mi cuenta</a>
+            <a href="favoritos.html">♡ Favoritos</a>
+            <a href="carrito.html">🛒 Carrito <span class="badge-carrito">2</span></a>
+        </nav>
+    </header>
+
+    <nav class="nav-categorias">
+        <a href="index.html">Inicio</a>
+        <a href="categoria.html">Audio y Sonido</a>
+        <a href="accesorios.html" class="activo">Accesorios</a>
+        <a href="ofertas.html">Ofertas</a>
+        <a href="#">Novedades</a>
+        <a href="#">Soporte</a>
+    </nav>
+
+    <div class="breadcrumb">
+        <a href="index.html">Inicio</a> &gt; Accesorios
+    </div>
+
+    <div class="cabecera-accesorios">
+        <h1>Accesorios Samsung</h1>
+        <p>Complementa tus equipos con accesorios originales, diseñados para durar.</p>
+    </div>
+
+    <div class="categoria-layout">
+
+        <aside class="filtros">
+            <div class="filtro-grupo">
+                <h4>Tipo de accesorio</h4>
+                <label><input type="checkbox"> Cargadores</label>
+                <label><input type="checkbox"> Cables</label>
+                <label><input type="checkbox"> Fundas y protectores</label>
+                <label><input type="checkbox"> Audífonos</label>
+            </div>
+
+            <div class="filtro-grupo">
+                <h4>Precio</h4>
+                <label><input type="checkbox"> Menos de $20</label>
+                <label><input type="checkbox"> $20 - $50</label>
+                <label><input type="checkbox"> $50 - $100</label>
+                <label><input type="checkbox"> $100 o más</label>
+                <div style="display:flex; gap:10px; margin: 10px 0;">
+                    <input type="number" placeholder="Mínimo">
+                    <input type="number" placeholder="Máximo">
+                </div>
+            </div>
+
+            <div class="filtro-grupo">
+                <h4>Valoración</h4>
+                <label><input type="checkbox"> ★★★★★ o más</label>
+                <label><input type="checkbox"> ★★★★ o más</label>
+                <label><input type="checkbox"> ★★★ o más</label>
+            </div>
+
+            <button class="btn-aplicar btn-aplicar-accesorios">Aplicar</button>
+        </aside>
+
+        <div class="categoria-contenido">
+
+            <div class="categoria-toolbar">
+                <div>
+                    Ordenar por:
+                    <select>
+                        <option>Relevancia</option>
+                        <option>Precio: menor a mayor</option>
+                        <option>Precio: mayor a menor</option>
+                        <option>Mejor valorados</option>
+                    </select>
+                </div>
+                <span>4 productos</span>
+            </div>
+
+            <div class="productos-lista">
+
+                <a href="producto.html" class="producto-card-lista">
+                    <img src="imagenes/audifonos.jpeg" alt="Audífonos Galaxy Buds">
+                    <div class="info-lista">
+                        <p class="nombre">Audífonos Galaxy Buds</p>
+                        <p class="rating">★★★★☆ <span class="cantidad">(320)</span></p>
+                        <p class="precio">$89.99</p>
+                    </div>
+                    <button class="btn-carrito-mini">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.5 5h13.5M9 21a1 1 0 100-2 1 1 0 000 2zM19 21a1 1 0 100-2 1 1 0 000 2z"/></svg>
+                    </button>
+                </a>
+
+                <a href="producto.html" class="producto-card-lista">
+                    <img src="imagenes/cargador.jpeg" alt="Cargador Rápido 25W">
+                    <div class="info-lista">
+                        <p class="nombre">Cargador Rápido 25W</p>
+                        <p class="rating">★★★★★ <span class="cantidad">(410)</span></p>
+                        <p class="precio">$24.99</p>
+                    </div>
+                    <button class="btn-carrito-mini">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.5 5h13.5M9 21a1 1 0 100-2 1 1 0 000 2zM19 21a1 1 0 100-2 1 1 0 000 2z"/></svg>
+                    </button>
+                </a>
+
+                <a href="producto.html" class="producto-card-lista">
+                    <img src="imagenes/accesorios.jpeg" alt="Funda protectora">
+                    <div class="info-lista">
+                        <p class="nombre">Funda Protectora Premium</p>
+                        <p class="rating">★★★★☆ <span class="cantidad">(156)</span></p>
+                        <p class="precio">$19.99</p>
+                    </div>
+                    <button class="btn-carrito-mini">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.5 5h13.5M9 21a1 1 0 100-2 1 1 0 000 2zM19 21a1 1 0 100-2 1 1 0 000 2z"/></svg>
+                    </button>
+                </a>
+
+                <a href="producto.html" class="producto-card-lista">
+                    <img src="imagenes/cargador.jpeg" alt="Cable USB-C a USB-C">
+                    <div class="info-lista">
+                        <p class="nombre">Cable USB-C a USB-C 1.5m</p>
+                        <p class="rating">★★★★☆ <span class="cantidad">(88)</span></p>
+                        <p class="precio">$14.99</p>
+                    </div>
+                    <button class="btn-carrito-mini">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.5 5h13.5M9 21a1 1 0 100-2 1 1 0 000 2zM19 21a1 1 0 100-2 1 1 0 000 2z"/></svg>
+                    </button>
+                </a>
+
+            </div>
+
+            <div class="paginacion">
+                <a href="#" class="activo">1</a>
+                <a href="#">2</a>
+                <a href="#">&gt;</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-columnas">
+            <div class="footer-columna">
+                <h4>SAMSUNG</h4>
+                <a href="categoria.html">Audio y Sonido</a>
+                <a href="accesorios.html">Accesorios</a>
+                <a href="#">Ofertas</a>
+                <a href="#">Novedades</a>
+            </div>
+            <div class="footer-columna">
+                <h4>Soporte</h4>
+                <a href="#">Centro de ayuda</a>
+                <a href="#">Envíos y entregas</a>
+                <a href="#">Devoluciones</a>
+                <a href="#">Garantía</a>
+            </div>
+            <div class="footer-columna">
+                <h4>Mi cuenta</h4>
+                <a href="#">Mis pedidos</a>
+                <a href="#">Favoritos</a>
+                <a href="#">Trabaja con nosotros</a>
+                <a href="#">Samsung Rewards</a>
+            </div>
+            <div class="footer-columna">
+                <h4>Legal</h4>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">Aviso legal</a>
+                <a href="#">Prensa</a>
+            </div>
+        </div>
+        <div class="footer-final">
+            <p>© 2026 Samsung Electronics. Todos los derechos reservados.</p>
+            <p>Métodos de pago: VISA · Mastercard · PayPal</p>
+        </div>
+    </footer>
+
+</body>
+</html>
